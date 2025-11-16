@@ -1,13 +1,13 @@
 from openai import OpenAI
 import requests
 
-# IMPORTANT — Bank API runs on port 8001
+
 BASE_URL = "http://localhost:8001"
 
-# OpenRouter API Key
+
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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"
+    api_key="sk-or-******"
 )
 
 MODEL_NAME = "google/gemini-2.0-flash-exp:free"
